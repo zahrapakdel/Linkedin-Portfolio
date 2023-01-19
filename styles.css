@@ -3,15 +3,15 @@ body {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 a:hover {
-  color: #0A68C2;
+  color: #0a68c2;
   text-decoration: underline;
 }
 .align-self-start {
-    align-self: flex-start;
+  align-self: flex-start;
 }
 
 .container {
@@ -26,7 +26,7 @@ a:hover {
 }
 
 .banner-image {
-  position: relative;  
+  position: relative;
   height: 195px;
   background: url("assets/images/header-img.png");
   background-size: cover;
@@ -118,42 +118,45 @@ a:hover {
   margin-top: 0;
 }
 
-.exp-length{
-    margin-bottom: 10px;
+.exp-length {
+  margin-bottom: 10px;
 }
 
-.exp-item{
-    margin-bottom: 20px
+.exp-item {
+  margin-bottom: 20px;
 }
 
-.exp-container{
-    position: relative;
+.exp-container {
+  position: relative;
 }
 
-.with-line::before{
-   content: "";
-    position: absolute;
-    left: calc(-2.5rem + 3px);
-    top: calc(1.5rem);
-    height: calc(100% - 1.6rem);
-    width: 2px;
-    background-color: #EBEBEB;
+.with-line::before {
+  content: "";
+  position: absolute;
+  left: calc(-2.5rem + 3px);
+  top: calc(1.5rem);
+  height: calc(100% - 1.6rem);
+  width: 2px;
+  background-color: #ebebeb;
 }
 
-.exp-description{
-    margin: 10px 0;
+.margin-10 {
+  margin: 10px 0;
+}
+.margin-6 {
+  margin: 6px 0;
 }
 
-.exp-dot{
-        position: relative;
-    display: block;
-    border-radius: 50%;
-    height: 0.5rem;
-    width: 0.5rem;
-    background-color: rgb(178,178,178);
-    top: calc(0.5rem);
-    left: calc(-2.5rem);
-    margin-bottom: calc(-0.8rem);
+.exp-dot {
+  position: relative;
+  display: block;
+  border-radius: 50%;
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: rgb(178, 178, 178);
+  top: calc(0.5rem);
+  left: calc(-2.5rem);
+  margin-bottom: calc(-0.8rem);
 }
 
 .card-content {
@@ -230,25 +233,23 @@ a:hover {
   padding-left: 1.3rem;
   padding-right: 1.3rem;
 }
-.btn:hover{
-    border: 2px solid rgba(0, 0, 0, 0.6);
-    background-color:#EBEBEB;
- ;
+.btn:hover {
+  border: 2px solid rgba(0, 0, 0, 0.6);
+  background-color: #ebebeb;
 }
 .modal {
-  display: none; 
-  position: fixed; 
-  z-index: 1; 
-  padding-top: 0; 
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 0;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto; 
-  background-color: rgb(0,0,0); 
-  background-color: rgba(0,0,0,0.4); 
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
 }
-
 
 .modal-content {
   position: relative;
@@ -256,29 +257,41 @@ a:hover {
   margin: auto;
   padding: 0;
   width: 45%;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
-  animation-duration: 0.4s
+  animation-duration: 0.4s;
 }
 
 @-webkit-keyframes animatetop {
-  from {top:-300px; opacity:0} 
-  to {top:0; opacity:1}
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
 }
 
 @keyframes animatetop {
-  from {top:-300px; opacity:0}
-  to {top:0; opacity:1}
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
 }
 
-
 .close {
-  color: #000;
+  color: rgba(0, 0, 0, 0.6);
   float: right;
   font-size: 28px;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .close:hover,
@@ -288,10 +301,12 @@ a:hover {
 }
 
 .modal-header {
-  padding: 3px 12px;
+  padding: 4px 14px;
 }
 
-.modal-body {padding: 2px 16px;}
+.modal-body {
+  padding: 2px 16px;
+}
 
 .link-btn {
   border: none;
@@ -299,9 +314,9 @@ a:hover {
   cursor: pointer;
   display: inline-block;
 }
-.link-btn:hover{
+.link-btn:hover {
   text-decoration: underline;
 }
-.primary-color{
-  color: #0A68C2;
+.primary-color {
+  color: #0a68c2;
 }
